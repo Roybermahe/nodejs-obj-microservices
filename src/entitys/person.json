@@ -1,0 +1,15 @@
+{
+    "name": "person",
+    "columns": {
+        "_id": {
+            "primary": true,
+            "type": "ObjectID"
+        },
+        "name": {
+            "type": "string"
+        },
+        "age": {
+            "type": "int"
+        }
+    }
+}

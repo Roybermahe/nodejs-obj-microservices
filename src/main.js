@@ -11,6 +11,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
 routes(app);
+
 app.listen(port, function() {
+    require('./database/providerConnection');
     console.log(' Server start in port: ' + port);
 });
